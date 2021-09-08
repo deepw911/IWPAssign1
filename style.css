@@ -1,0 +1,140 @@
+/* body {
+    background-image: url('images/bg_img.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:  100% 100%;
+  } */
+/* 
+.bg_img{
+    height: 500px;
+} */
+/* 
+body{
+    text-align: center;
+} */
+
+
+p{
+    margin: 0 auto;
+}
+.background{
+    background-image: url('images/bg_img.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:  100% 100%;
+    height: 500px;
+    display: flex;
+}
+
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    padding-top: 100px;
+    margin: auto;
+}
+
+.instructor{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: -50px;
+}
+
+.profile_img{
+    width: 100px;
+    border-radius: 100%;
+    border: 1px solid white;
+    display: flex;
+}
+
+
+.profile_text{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 18px;
+    color: rgb(51,51,51);
+    line-height: 24px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.profile_text hr{
+    text-align: center;
+    margin: 10px auto;
+    height: 2px;
+    width: 130px;
+    color: #e6e6e6;
+}
+
+
+.labs{
+    margin: 60px auto;
+    width: 66.67%;
+    /* height: 1000px; */
+    text-align: left;
+    display: flex;
+    /* float: left; */
+}
+
+.heading_labs{
+    font-family: 'Roboto Slab',serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    /* margin: 0 auto; */
+}
+
+.lab_image{
+    width: 100%;
+}
+
+
+.number_list{
+    font-size: 36px;
+    color: rgba(0,0,0,0.25);
+    width: 40px;
+    padding-right: 40px;
+    float: left;
+}
+
+.address{
+    color: #42b4d6;
+    text-decoration: none;
+    /* padding-bottom: 20px; */
+}
+
+.address:hover {
+    text-decoration: underline;
+}
+
+.lab_content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    /* margin: 0 auto; */
+}
+
+
+.content{
+    float: left;
+}
+
+
+
+.lab_image{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+/* 
+@media only screen and (min-width: 480px) {
+    div.background {
+      background-size: 50% 50%;
+    }
+  } */
+
